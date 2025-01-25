@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Number Guessing Game</title>
+        <link rel = "stylesheet" href="game.css">
+        <script src = "game.js" defer></script>
+    </head>
+    <body class="container-start">
+        <div id="start">
+            <h1 class="header">Guessing The Number Game</h1>
+            <div class = "box-startgame">
+                
+                <label for="range" class="labelheader">Select a range of numbers</label> 
+                <br>
+
+                <input type="radio" id="range" name="range" value="10">
+                <label for="10">10</label>
+
+                <input type="radio" id="range" name="range" value="100">
+                <label for="100">100</label>
+
+                <input type="radio" id="range" name="range" value="1000">
+                <label for="1000">1000</label>
+                <br>
+                
+
+                <button type = "button" class="button gameButton" id="strButton" disabled>Start</button>
+                <br>
+            </div>
+        </div>    
+    </body>
+</html>

@@ -1,0 +1,114 @@
+.header{
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-start{
+    background-color: lightsteelblue;
+    justify-content: center;
+}
+
+.container-game{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 0.25px;
+}
+
+.labelheader{
+   font-size: 1.5em;
+   font-weight: bold;
+   color: darkblue;
+}
+
+.box-startgame {
+    width: 60%;
+    padding: 1rem;
+    border: 3px solid grey;
+    background-color: lightgray;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.8;
+    border-radius: 10px;
+ }
+
+ .instructionbox{
+    width: 65%;
+    height: 250px;
+    padding: 1rem;
+    border: 3px solid grey;
+    background-color: lightgray;
+    justify-content: left;
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+ }
+
+ .guessbox{
+    width: 20%;
+    padding: 1rem;
+    border: 3px solid grey;
+    background-color: lightgray;
+    justify-content: right;
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+ }
+
+ .button {
+   background-color: #1e05ff; 
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   padding: 5px 20px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+ 
+ .gameButton {
+   background-color: white; 
+   color: black; 
+   border: 2px solid #1e05ff;
+   border-radius: 4px;
+ }
+ 
+ .gameButton:hover {
+   background-color: #1e05ff;
+   color: white;
+ }
+
+ .gameButton:disabled{
+   opacity: 0.6;
+   cursor: not-allowed;
+ }
+
+ input[type=number] {
+   width: 10rem;
+   border: 2px solid #1e05ff ;
+   border-radius: 4px ;
+   padding: px;
+   box-sizing: border-box;
+   position: relative;
+ }
+
+ .endScreen{
+   justify-content: center;
+   text-align: center;
+   background-color: lightgray;
+   border-radius: 10px;
+ }
+
+ 
+
+ 
